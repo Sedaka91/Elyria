@@ -3,7 +3,7 @@ epoch: 1792778233077
 mode: agent
 backendId: opencode
 sessionId: "ses_e96175e02ffeGePgkplQ3CPgJG"
-usage: '{"usedTokens":110601,"contextWindow":200000,"updatedAt":1792833923380}'
+usage: '{"usedTokens":110601,"updatedAt":1792833923380}'
 tags:
   - copilot-conversation
 lastAccessedAt: 1792831769259
@@ -726,3 +726,17 @@ Alle Profile wurden nach dem gleichen Schema erstellt (Steckbrief, Wollen & Für
 
 **ai**: Alle Verlinkungen wurden aktualisiert. Der ehemalige [[Goldfinger-Clan]] wurde vollständig durch [[Goldglanz-Clan]] ersetzt und alle alten Verweise korrigiert. Die Kupferbart-Bezüge sind korrekt verlinkt.
 [Timestamp: 2026/10/24 11:19:37]
+
+**user**: sortiere nsc und fraktionen in ordner entsprechend ihrer regionen ein
+[Timestamp: 2026/10/24 12:21:47]
+
+**ai**: **Error:** Internal error: Free usage limit reached. Subscribe to OpenCode Go to keep going: https://opencode.ai/go
+[Timestamp: 2026/10/24 12:21:47]
+
+**user**: sortiere nsc und fraktionen in ordner entsprechend ihrer regionen ein
+[Timestamp: 2026/10/24 12:22:17]
+
+**ai**: **Error:** Internal error: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 250000, model: gemini-3.8-flash, description: Generate content input tokens per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.
+Please retry in 1.295251367s.
+[Timestamp: 2026/10/24 12:22:17]
