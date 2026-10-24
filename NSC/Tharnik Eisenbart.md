@@ -20,7 +20,7 @@ tags:
 | Feld | Wert |
 | --- | --- |
 | Rolle | Händler der Zwergenhalle, Bote des Throngrates der Neun Hallen |
-| Zugehörigkeit | [[Neun Hallen]] - Klans der Händler |
+| Zugehörigkeit | [[Goldglanz-Clan]] |
 | Abstammung / Gemeinschaft | Zwerg |
 | Ort | [[Eisenkammfeste]] - Die Zwergenhalle |
 | Haltung zu Fremden | Misstrauisch zu Beginn, aber warm und loyal sobald man sein Vertrauen gewinnt. |
@@ -35,7 +35,7 @@ tags:
 ## Erinnerungswert
 
 - **Stimme / Sprechtempo:** Tief, knurrig aber freundlich. Spricht gerne mit Zwergenakzenten, wird formeller bei offiziellen Verhandlungen.
-- **Kleidung / Geruch:** Trägt sorgfältig gefertigte, praktische Handelskleidung mit Zwergensymbolen. Riecht nach Leder, Metall, Bier und frischem Brot.
+- **Kleidung / Geruch:** Trägt sorgfältig gefertigte, praktische Handelskleidung mit den Symbolen des [[Goldglanz-Clan]]. Riecht nach Leder, Metall, Bier und frischem Brot.
 - **Tick / Angewohnheit:** Streichelt seinen prächtigen, geflochtenen Bart, wenn er nachdenkt.
 - **Ein Satz, den sie immer sagt:** *"Ein Wort eines Zwerges wiegt mehr als Gold, wenn es gehalten wird."*
 
@@ -79,4 +79,5 @@ Der Throngrat wird den Pass für unbestimmte Zeit schließen, um die Neun Hallen
 
 ## Verwandt
 
-[[Eisenkammfeste]] · [[Neun Hallen]] · [[Die Flusskönigreiche]] · [[NSC]]
+[[Eisenkammfeste]] · [[Neun Hallen]] · [[Die Flusskönigreiche]] · [[Goldglanz-Clan]] · [[NSC]]
+

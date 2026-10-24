@@ -22,10 +22,10 @@ Mächte mit eigenem Willen: Häuser, Gilden, Kulte, Orden, Herrschaften, Widerst
 | [[Stahlhammer-Clan]] | Zwergenclan / Schmiedegilde | [[Neun Hallen]] – Halle des Hammers | Vorherrschaft in der Waffenkunst sichern | Je nach Auftrag hilfreich, aber stolz |
 | [[Eisenschild-Clan]] | Zwergenclan / Wachtgilde | [[Neun Hallen]] – Halle des Schildes | Zugänge der Neun Hallen sichern | Misstrauisch, aber verlässlich |
 | [[Kupferbart-Clan]] | Zwergenclan / Handwerkergilde | [[Neun Hallen]] – Halle des Kupfers | Wasserversorgung sichern, Frieden vermitteln | Freundlich, hilfsbereit |
-| [[Goldfinger-Clan]] | Zwergenclan / Handelsgilde | [[Neun Hallen]] – Halle des Goldes | Handel kontrollieren, Einfluss ausbauen | Geschäftstüchtig, verhandelbar |
-| [[Silberreif-Clan]] | Zwergenclan / Kunsthandwerk & Diplomatie | [[Neun Hallen]] – Halle des Silbers | Form, Ritual und Ansehen wahren | Höflich, aber prüfend |
+| [[Goldglanz-Clan]] | Zwergenclan / Gold- und Silberschmiedegilde | [[Neun Hallen]] – Halle des Goldglanzes | Wertkunst und Münzprägung bewahren | Höflich, aber penibel auf Ehrlichkeit |
+| [[Silberreif-Clan]] | Zwergenclan / Rechtsgilde | [[Neun Hallen]] – Halle des Silbers | Recht wahren und Streit schlichten | Streng, aber gerecht |
 | [[Diamant-Clan]] | Zwergenclan / Bergbau & Edelsteine | [[Neun Hallen]] – Halle der Tiefe | Versiegelte Tiefen geschlossen halten | Verschwiegen, aber vertrauensvoll bei Diskretion |
-| [[Runenschmied-Clan]] | Zwergenclan / Runen & Recht | [[Neun Hallen]] – Halle der Runen | Alte Ordnung und Recht bewahren | Ernst, aber gerecht |
+| [[Runenschmied-Clan]] | Zwergenclan / Magische Schmiedegilde | [[Neun Hallen]] – Halle der Runen | Runenmagie bewahren und Siegel hüten | Ernst, verschwiegen, hilfsbereit bei Siegeln |
 | [[Thoriumgießer-Clan]] | Zwergenclan / Gießerei | [[Neun Hallen]] – Halle des Feuers | Neue Legierungen erschließen | Hitzig, ehrgeizig, ungeduldig |
 
 ## Was eine gute Fraktion braucht

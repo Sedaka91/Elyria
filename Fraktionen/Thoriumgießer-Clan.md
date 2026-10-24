@@ -56,7 +56,7 @@ tags:
 | [[Stahlhammer-Clan]] | Offene Rivalität | Streit um die Zukunft der Waffen |
 | [[Diamant-Clan]] | Feindseligkeit | Der Diamant-Clan will die Tiefen sperren |
 | [[Kupferbart-Clan]] | Angespannt | Die Öfen verbrauchen zu viel Wasser |
-| [[Goldfinger-Clan]] | Nützlich | Erz gegen Geld, Geld gegen Einfluss |
+| [[Goldglanz-Clan]] | Nützlich | Erz gegen Geld, Geld gegen Einfluss |
 
 ## Countdown
 

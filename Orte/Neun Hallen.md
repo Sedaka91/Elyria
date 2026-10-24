@@ -38,8 +38,8 @@ Jeder Clan bewohnt seine eigene Halle und prägt sie mit seinem Handwerk. Die Ha
 | [[Stahlhammer-Clan]] | Halle des Hammers | Waffen, Rüstungen, Kriegsschmiedekunst | Traditionalistisch, stolz, kriegerisch |
 | [[Eisenschild-Clan]] | Halle des Schildes | Schilde, Panzerung, Grenzwacht und Verteidigung | Pflichtbewusst, vorsichtig, isolationistisch |
 | [[Kupferbart-Clan]] | Halle des Kupfers | Kupfer, Bronze, Wasserläufe, Brunnen und Leitungen | Pragmatisch, vermittelnd, bodenständig |
-| [[Goldfinger-Clan]] | Halle des Goldes | Handel, Münzprägung, Buchführung, Kontakte nach außen | Weltoffen, geschäftstüchtig, geschwätzig |
-| [[Silberreif-Clan]] | Halle des Silbers | Silberschmiedekunst, Juwelierarbeit, Geschenke und Diplomatie | Vornehm, stolz auf Form, eitel |
+| [[Goldglanz-Clan]] | Halle des Goldglanzes | Gold- und Silberschmiedekunst, Juwelierarbeit, Münzprägung | Feinsinnig, penibel auf Reinheit, stolz auf ihr Handwerk |
+| [[Silberreif-Clan]] | Halle des Silbers | Rechtswesen, Schlichtung, Gerichtsbarkeit | Streng, unparteiisch, gerecht |
 | [[Diamant-Clan]] | Halle der Tiefe | Edelsteinschleiferei, tiefer Bergbau, Kenntnis der alten Stollen | Verschwiegen, misstrauisch, konservativ |
 | [[Runenschmied-Clan]] | Halle der Runen | Runenkunst, Ahnenkunde, Recht und Schrift | Gelehrt, streng, religiös |
 | [[Thoriumgießer-Clan]] | Halle des Feuers | Thorium, Gießereien, Legierungen, große Öfen | Fortschrittlich, hitzig, ungeduldig |
@@ -87,4 +87,4 @@ Die Herrschaft wandert in festen Abständen von Clan zu Clan. Der Wechsel ist ke
 
 ## Verwandt
 
-[[Eisenkammfeste]] · [[Die Flusskönigreiche]] · [[Fraktionen]] · [[Stahlhammer-Clan]] · [[Eisenschild-Clan]] · [[Kupferbart-Clan]] · [[Goldfinger-Clan]] · [[Silberreif-Clan]] · [[Diamant-Clan]] · [[Runenschmied-Clan]] · [[Thoriumgießer-Clan]]
+[[Eisenkammfeste]] · [[Die Flusskönigreiche]] · [[Fraktionen]] · [[Stahlhammer-Clan]] · [[Eisenschild-Clan]] · [[Kupferbart-Clan]] · [[Goldglanz-Clan]] · [[Silberreif-Clan]] · [[Diamant-Clan]] · [[Runenschmied-Clan]] · [[Thoriumgießer-Clan]]

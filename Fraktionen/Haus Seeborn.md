@@ -58,7 +58,7 @@ tags:
 | --- | --- | --- |
 | [[Haus Tharan]] | Respektvoll, aber distanziert | Unter Druck, doch weigert sich zu klarer Parteinahme |
 | Aufrührerische Fürsten | Höflich, aber reserviert | Gewähren Kredite, aber fordern keine Parteinahme |
-| [[Goldfinger-Clan]] | Geschäftlich eng | Ähnliche Denkweise bezüglich Handel und Neutralität |
+| [[Goldglanz-Clan]] | Geschäftlich eng | Ähnliche Denkweise bezüglich Handel und Neutralität |
 
 ## Countdown
 

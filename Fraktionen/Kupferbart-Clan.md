@@ -53,7 +53,7 @@ tags:
 
 | Fraktion | Verhältnis | Grund |
 | --- | --- | --- |
-| [[Goldfinger-Clan]] | Gute Geschäfte | Kupfer gegen Getreide und Kontakte |
+| [[Goldglanz-Clan]] | Gute Geschäfte | Kupfer gegen Getreide und Kontakte |
 | [[Stahlhammer-Clan]] | Neutral | Man braucht sich gegenseitig, mag sich aber nicht |
 | [[Thoriumgießer-Clan]] | Sorge | Dessen Öfen verbrauchen Wasser in gefährlichem Maß |
 | [[Runenschmied-Clan]] | Respekt | Alte Wasserrunen werden gemeinsam gepflegt |
@@ -74,4 +74,4 @@ tags:
 
 ## Verwandt
 
-[[Neun Hallen]] · [[Eisenkammfeste]] · [[Fraktionen]] · [[Goldfinger-Clan]] · [[Thoriumgießer-Clan]]
+[[Neun Hallen]] · [[Eisenkammfeste]] · [[Fraktionen]] · [[Goldglanz-Clan]] · [[Thoriumgießer-Clan]]

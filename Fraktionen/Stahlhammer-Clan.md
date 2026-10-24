@@ -56,7 +56,7 @@ tags:
 | [[Eisenschild-Clan]] | Zweckbündnis | Gemeinsame Verteidigung, aber Streit über Zuständigkeiten |
 | [[Runenschmied-Clan]] | Spannung | Der Clan braucht den Runensegen, will sich aber nicht unterordnen |
 | [[Thoriumgießer-Clan]] | Rivalität | Streit darüber, welches Metall die Zukunft der Neun Hallen ist |
-| [[Goldfinger-Clan]] | Verachtung | Hält Handel für unehrliches Handwerk |
+| [[Goldglanz-Clan]] | Verachtung | Hält Handel für unehrliches Handwerk |
 
 ## Countdown
 

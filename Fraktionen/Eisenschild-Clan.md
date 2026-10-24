@@ -55,7 +55,7 @@ tags:
 | --- | --- | --- |
 | [[Stahlhammer-Clan]] | Zweckbündnis | Waffen und Schilde gehören zusammen, die Zuständigkeiten nicht |
 | [[Diamant-Clan]] | Vertrauen | Beide fürchten, was in den Tiefen liegt |
-| [[Goldfinger-Clan]] | Misstrauen | Hält den Handel für ein Einfallstor für Fremde |
+| [[Goldglanz-Clan]] | Misstrauen | Hält den Handel für ein Einfallstor für Fremde |
 | [[Runenschmied-Clan]] | Respekt | Die alten Torrunen sind ohne den Clan nicht zu lesen |
 
 ## Countdown

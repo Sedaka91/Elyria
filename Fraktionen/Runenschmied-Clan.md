@@ -5,73 +5,75 @@ sitz: "[[Neun Hallen]] – Halle der Runen"
 tags:
   - elyria/fraktion
   - elyria/zwergen
+  - elyria/magie
 ---
 
 # Runenschmied-Clan
 
 > [!abstract] In einem Satz
-> Die Bewahrer von Schrift, Recht und Ahnenkunde: streng, gelehrt und die Instanz, ohne deren Segen kein Vertrag und keine Klinge Gültigkeit hat.
+> Magische Handwerker der Neun Hallen, die Runen in Metall, Stein und Erz einprägen, um ihnen Kraft zu verleihen.
 
 ## Steckbrief
 
 | Feld | Wert |
 | --- | --- |
-| Art | Zwergenclan / Runen- und Rechtsgilde |
+| Art | Zwergenclan / Magische Schmiedegilde |
 | Sitz | [[Neun Hallen]] – Halle der Runen |
-| Reichweite | Alle Hallen; dazu die Auslegung des Alten Vertrages mit den Flusskönigreichen |
+| Reichweite | Alle Hallen, besonders bei der Verzauberung und Versiegelung |
 | Größe | Rund 2.500 Clansangehörige |
-| Ressourcen | Schriftarchive, Runenwissen, Rechtsauslegung, religiöse Autorität |
+| Ressourcen | Runenwerkstätten, verzauberte Ambosse, altes Runenwissen, versiegelte Relikte |
 
 ## Ziel
 
-- **Was sie will:** Die alte Ordnung bewahren und sicherstellen, dass jede Herrschaft rechtmäßig beginnt und endet.
-- **Warum jetzt:** Die kommende Wende könnte streitig werden, wenn ein Clan die Regeln anders auslegt.
-- **Woran man merkt, dass sie es ernst meint:** Der Clan verweigert die Ausrufung eines Herrschers, bis ein Streit beigelegt ist.
+- **Was sie will:** Das uralte Wissen der Runen bewahren und nur würdige Werke damit schmücken.
+- **Warum jetzt:** Etwas in den versiegelten Tiefen drängt nach außen und beginnt, die Runen der Siegel brüchig werden zu lassen.
+- **Woran man merkt, dass sie es ernst meint:** Der Clan beginnt, die ältesten Siegel heimlich neu zu ritzen.
 
 ## Methoden
 
-- **Öffentlich:** Rechtsprüfungen, Auslegungen, rituelle Segnungen und Flüche.
-- **Im Verborgenen:** Der Clan hütet Abschriften, von denen andere Clans nicht wissen, dass sie existieren.
-- **Wovor sie zurückschreckt:** Vor dem Bruch eines Eides – ein gebrochener Eid entzieht dem Clan seine Legitimität.
+- **Öffentlich:** Einprägen von Schutzrunen, Verzauberung von Waffen und Rüstungen, Versiegelung von Stollen.
+- **Im Verborgenen:** Hüten vergessener Runenfolgen, die niemals für den allgemeinen Gebrauch bestimmt waren.
+- **Wovor sie zurückschreckt:** Vor dem sinnlosen Verschleiß runenmagischer Kraft – Runen sind nicht käuflich, sie werden verdient.
 
 ## Aufbau
 
 | Rolle | Name | Notiz |
 | --- | --- | --- |
-| Clanälteste | Thalja Runenschmied | Trocken, präzise, zitiert stets die genaue Stelle |
-| Rechte Hand | Meister Orm | Hüter des Archivs |
-| Gesicht nach außen | Rechtswahrerin Sigda | Spricht Recht zwischen den Clans |
+| Clanälteste | Thalja Runenschmied | Ernste Runenmeisterin, spricht nur wenig, aber mit Gewicht |
+| Rechte Hand | Meister Orm | Hüter der Runenwerkstatt und der ältesten Tafeln |
+| Gesicht nach außen | Runenmeisterin Sigda | Verhandelt über Verzauberungen mit anderen Clans und mit der [[Eisenkammfeste]] |
 
 ## Öffentliches Gesicht vs. Wahrheit
 
 | Was die Welt glaubt | Was wirklich stimmt |
 | --- | --- |
-| Die Runen sind reine Tradition. | Einige der ältesten Runen sind Warnungen – nicht Segnungen. |
-| Der Clan ist unparteiisch. | Thalja legt Regeln streng, aber nicht immer gleich streng aus, wenn es um die Zukunft ihres Clans geht. |
+| Runen sind nur Verzierung. | Runen sind echte Magie, eingeprägt durch Ritual und Opfer an die uralte Kraft des Eisenkamms. |
+| Der Clan schmiedet für jeden, der zahlt. | Ein Runenschmied wird niemals eine Rune auf ein unwürdiges oder verräterisches Werk prägen. |
 
 ## Beziehungen
 
 | Fraktion | Verhältnis | Grund |
 | --- | --- | --- |
-| [[Diamant-Clan]] | Notwendige Zusammenarbeit | Gemeinsame Verantwortung für die alten Siegel |
-| [[Stahlhammer-Clan]] | Spannung | Der Clan braucht den Segen, will ihn aber nicht bitten |
-| [[Eisenschild-Clan]] | Respekt | Alte Torrunen verbinden beide |
-| [[Silberreif-Clan]] | Verbundenheit | Form und Ritual als gemeinsames Anliegen |
+| [[Diamant-Clan]] | Notwendige Zusammenarbeit | Gemeinsame Verantwortung für die Siegel der Tiefen |
+| [[Eisenschild-Clan]] | Respektvoll | Alte Torrunen verbinden beide Hallen |
+| [[Stahlhammer-Clan]] | Kooperativ, aber kritisch | Arbeitet oft zusammen, doch Stahlhammer will Runen zu oft für den Krieg nutzen |
+| [[Silberreif-Clan]] | Kühle Höflichkeit | Erkennt dessen Rolle als Rechtsprecher an, sieht sich aber nicht in Konkurrenz |
 
 ## Countdown
 
 | Stufe | Ereignis |
 | --- | --- |
-| 1 | Der Clan verlangt eine Prüfung der Ansprüche des nächsten Herrschers. |
-| 2 | Eine alte Abschrift des Alten Vertrages taucht auf, die niemand kannte. |
-| 3 | Thalja verweigert die Ausrufung – und die Neunte Halle steht ohne rechtmäßigen Herrscher da. |
+| 1 | Runen an einem alten Siegel beginnen ohne Grund zu flackern. |
+| 2 | Der Clan stellt fest, dass etwas versucht, die Siegel von innen heraus zu schwächen. |
+| 3 | Ein Siegel droht zu brechen – und die Runenschmiede müssen entscheiden, ob sie es mit letzter Kraft halten oder öffnen. |
 
 ## Was sie von den SC will
 
-- **Was sie anbieten kann:** Wissen über Runen, Zugang zum Archiv, Rechtsbeistand in Clanstreitigkeiten.
-- **Was sie verlangt:** Eine reine, wahrheitsgemäße Aussage – und die Bereitschaft, sich an das Ergebnis zu halten.
-- **Was passiert bei Ablehnung:** Kein Segen, keine Auskunft, keine Hilfe bei der Auslegung.
+- **Was sie anbieten kann:** Schutzrunen, verzauberte Ausrüstung, Wissen über Runenmagie, Hilfe bei versiegelten Türen.
+- **Was sie verlangt:** Hilfe beim Sichern eines Siegels, Material aus den Tiefen oder einen Dienst, der den Siegeln zugute kommt.
+- **Was passiert bei Ablehnung:** Man wird höflich behandelt, jedoch niemals mit den größten Geheimnissen der Halle betraut. |
 
 ## Verwandt
 
-[[Neun Hallen]] · [[Eisenkammfeste]] · [[Die Flusskönigreiche]] · [[Fraktionen]] · [[Diamant-Clan]]
+[[Neun Hallen]] · [[Eisenkammfeste]] · [[Fraktionen]] · [[Diamant-Clan]] · [[Eisenschild-Clan]]
+

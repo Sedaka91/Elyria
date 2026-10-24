@@ -42,7 +42,16 @@ Wiederkehrende Figuren, die unabhängig von einer einzelnen Kampagne existieren.
 | [[Markgräfin Luitgard von Eisenhaupt]] | Markgräfin, Versorgerin | [[Haus Eisenhaupt]] | [[Eisenkammfeste]] / [[Die Flusskönigreiche]] | Praktisch, mitfühlend |
 | [[Gundolf von Eisenhaupt]] | Erbe, Kommandant der Tiefenwacht | [[Haus Eisenhaupt]] | [[Eisenkammfeste]] / [[Die Flusskönigreiche]] | Direkt, offen zu Arbeitern |
 | [[Adela von Eisenhaupt]] | Tochter, Schmiedemeisterin | [[Haus Eisenhaupt]] | [[Eisenkammfeste]] / [[Die Flusskönigreiche]] | Prüfend, warm zu Freunden |
-| [[Tharnik Eisenbart]] | Zwergischer Händler, Bote | [[Neun Hallen]] | [[Eisenkammfeste]] / [[Die Flusskönigreiche]] | Misstrauisch anfangs, loyal danach |
+| [[Tharnik Eisenbart]] | Zwergischer Händler, Bote | [[Goldglanz-Clan]] | [[Eisenkammfeste]] / [[Die Flusskönigreiche]] | Misstrauisch anfangs, loyal danach |
+| [[Balrik Stahlhammer]] | Clanältester des Stahlhammer-Clans | [[Stahlhammer-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Laut, aber respektvoll gegenüber Tapferen |
+| [[Hilda Stahlhammer]] | Rechte Hand, Erbin | [[Stahlhammer-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Höflich, aber prüfend |
+| [[Hargna Eisenschild]] | Clanälteste des Eisenschild-Clans | [[Eisenschild-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Misstrauisch, aber respektvoll |
+| [[Dorin Kupferbart]] | Clanältester des Kupferbart-Clans | [[Kupferbart-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Freundlich, gastfreundlich |
+| [[Quirna Silberreif]] | Oberrichterin des Silberreif-Clans | [[Silberreif-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Höflich, distanziert, aber fair |
+| [[Thalja Runenschmied]] | Clanälteste des Runenschmied-Clans | [[Runenschmied-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Vorsichtig, aber respektvoll |
+| [[Gorm Diamant]] | Clanältester des Diamant-Clans | [[Diamant-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Verschwiegen, misstrauisch |
+| [[Brokk Thoriumgießer]] | Clanältester des Thoriumgießer-Clans | [[Thoriumgießer-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Hitzig, ungeduldig |
+| [[Vala Goldglanz]] | Clanälteste des Goldglanz-Clans | [[Goldglanz-Clan]] | [[Neun Hallen]] / [[Eisenkamm]] | Freundlich, aber penibel auf Reinheit |
 
 ## Wo NSC hingehören
 

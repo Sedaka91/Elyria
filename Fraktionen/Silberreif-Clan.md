@@ -10,68 +10,69 @@ tags:
 # Silberreif-Clan
 
 > [!abstract] In einem Satz
-> Die Silberschmiede und Geschenkmacher der Neun Hallen: vornehm, formbewusst und Meister darin, mit einer Gabe mehr zu sagen als mit einer Rede.
+> Die Hüter des Rechts der Neun Hallen: unparteiische Rechtsprecher, die Streit zwischen Clans schlichtend und bindend entscheiden.
 
 ## Steckbrief
 
 | Feld | Wert |
 | --- | --- |
-| Art | Zwergenclan / Kunsthandwerk und Diplomatie |
+| Art | Zwergenclan / Rechtsgilde |
 | Sitz | [[Neun Hallen]] – Halle des Silbers |
-| Reichweite | Innerhalb der Neun Hallen, dazu Geschenke und Ehrenzeichen für fremde Herrscher |
+| Reichweite | Alle Hallen der Neun Hallen |
 | Größe | Rund 3.000 Clansangehörige |
-| Ressourcen | Silber, Edelsteine, Kunstfertigkeit, gute Beziehungen zu fast allen Clans |
+| Ressourcen | Rechtsarchive, Schwursteine, Gerichtshalle, hohes Ansehen bei allen Clans |
 
 ## Ziel
 
-- **Was sie will:** Die Form wahren – Zeremonien, Rangordnungen und die Würde der Neun Hallen.
-- **Warum jetzt:** Die zunehmende Rücksichtslosigkeit der Clans bedroht das Ansehen des Reiches nach außen.
-- **Woran man merkt, dass sie es ernst meint:** Der Clan verweigert einem Clan das Ehrenzeichen, das ihm bei der Wende zusteht.
+- **Was sie will:** Den Frieden zwischen den Clans wahren und das Recht der Neun Hallen uneingeschränkt anwenden.
+- **Warum jetzt:** Die Spannungen zwischen den Clans nehmen zu und drohen, den Rat zu lähmen.
+- **Woran man merkt, dass sie es ernst meint:** Der Clan beruft ein formelles Gericht ein, wenn der Throngrat sich weigert, einen Streit zu klären.
 
 ## Methoden
 
-- **Öffentlich:** Feste, Ehrenringe, prächtige Geschenke an die [[Eisenkammfeste]] und fremde Gesandte.
-- **Im Verborgenen:** Ein Geschenk sagt, was man nicht aussprechen darf – und kann einen Clan öffentlich bloßstellen.
-- **Wovor sie zurückschreckt:** Vor offener Gewalt. Ein zerbrochener Ring lässt sich nicht mehr reparieren.
+- **Öffentlich:** Abhalten von Gerichtsverhandlungen, Schwüre abnehmen, Urteile verkünden.
+- **Im Verborgenen:** Vermittlung im Vorfeld, um einen Streit gütlich beizulegen, bevor er vor Gericht kommt.
+- **Wovor sie zurückschreckt:** Vor der offenen Verweigerung eines bindenden Urteils – würde dies das gesamte Rechtssystem der Neun Hallen erschüttern.
 
 ## Aufbau
 
 | Rolle | Name | Notiz |
 | --- | --- | --- |
-| Clanälteste | Quirna Silberreif | Elegant, scharfzüngig, achtet auf jede Geste |
-| Rechte Hand | Aldric Silberreif | Meister der Ehrenzeichen |
-| Gesicht nach außen | Gesandte Runa | Überbringt Geschenke und Botschaften |
+| Clanälteste & Oberrichterin | Quirna Silberreif | Streng, gerecht und gefürchtet für ihre präzisen Urteile |
+| Rechte Hand | Aldric Silberreif | Protokollführer und Anwalt des Rechts |
+| Gesicht nach außen | Rechtsprecherin Runa | Vermittelt zwischen streitenden Clans und spricht Recht vor dem Throngrat |
 
 ## Öffentliches Gesicht vs. Wahrheit
 
 | Was die Welt glaubt | Was wirklich stimmt |
 | --- | --- |
-| Der Clan ist vor allem eitel. | Seine Geschenke haben mehr Kriege verhindert als jede Wacht. |
-| Alle Clans werden gleich geehrt. | Wer Quirna beleidigt, erhält ein Ehrenzeichen, das knapp unter dem gebührenden Rang liegt. |
+| Der Clan ist völlig unparteiisch. | Quirna ist streng, aber sie wiegt jedes Urteil sorgfältig ab, um einen neuen Bürgerkrieg zu vermeiden. |
+| Ein Urteil ist immer populär. | Oft ist ein gerechtes Urteil das unpopulärste für beide Seiten. |
 
 ## Beziehungen
 
 | Fraktion | Verhältnis | Grund |
 | --- | --- | --- |
-| [[Goldfinger-Clan]] | Rivalität | Streit um Prunk und um die schöneren Geschenke |
-| [[Runenschmied-Clan]] | Respekt | Gemeinsame Sorge um Form und Ritual |
-| [[Stahlhammer-Clan]] | Spannung | Dessen Grobheit gilt als Schande für das Reich |
-| [[Diamant-Clan]] | Kühle Höflichkeit | Dessen Verschwiegenheit macht Quirna nervös |
+| [[Runenschmied-Clan]] | Respektvoll | Erkennen beiderseits die Bedeutung von Eid und Schrift an |
+| [[Kupferbart-Clan]] | Vertraut | Schätzt dessen Vermittlungsgabe |
+| [[Stahlhammer-Clan]] | Angespannt | Oft uneinig über Urteile, akzeptiert diese aber meist widerwillig |
+| [[Goldglanz-Clan]] | Kühle Höflichkeit | Misstraut dessen Neigung, Recht durch Geld zu beeinflussen |
 
 ## Countdown
 
 | Stufe | Ereignis |
 | --- | --- |
-| 1 | Ein geplantes Geschenk an einen Clan wird „versehentlich“ zu klein ausgeführt. |
-| 2 | Der Clan fordert eine öffentliche Entschuldigung von einem Rivalen. |
-| 3 | Quirna verweigert dem amtierenden Herrscher das Ehrenzeichen – ein Bruch mit der Neunten Halle. |
+| 1 | Ein Streit zwischen zwei Clans eskaliert und droht gewaltsam zu werden. |
+| 2 | Beide Seiten verweigern den Kompromiss und fordern ein formelles Gericht. |
+| 3 | Das Gericht wird angerufen – und sein Urteil wird das Verhältnis der Clans für Jahre prägen. |
 
 ## Was sie von den SC will
 
-- **Was sie anbieten kann:** Zugang zu Festen und Gesandten, gute Worte bei den Ältesten, edle Ausrüstung.
-- **Was sie verlangt:** Dass die SC eine Botschaft überbringen, ohne sie zu verändern – und ohne nachzufragen.
-- **Was passiert bei Ablehnung:** Man bleibt höflich, aber die SC gelten als ungebildet – und werden nie zu einem wichtigen Fest geladen.
+- **Was sie anbieten kann:** Gehör vor Gericht, Schutz unter ihrem Recht, Vermittlung zwischen streitenden Parteien.
+- **Was sie verlangt:** Zeugenaussagen, Beweise oder Hilfe bei der Aufklärung eines Vergehens.
+- **Was passiert bei Ablehnung:** Man wird gehört, aber ohne Beweise wird das Recht nicht für einen Fremden brechen. |
 
 ## Verwandt
 
-[[Neun Hallen]] · [[Eisenkammfeste]] · [[Fraktionen]] · [[Goldfinger-Clan]] · [[Runenschmied-Clan]]
+[[Neun Hallen]] · [[Eisenkammfeste]] · [[Fraktionen]] · [[Runenschmied-Clan]] · [[Kupferbart-Clan]]
+
