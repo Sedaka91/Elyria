@@ -14,6 +14,7 @@ tags:
 
 - **Auf der Karte:** Nordkontinent
 - **Nachbarn:**
+  - [[Die Frostgipfel]] (Nordwesten)
 - **Größe / Reisezeit zu Fuß:**
 
 ## Landschaft & Klima

@@ -88,6 +88,35 @@ Drei Dinge, die Elyria von einer generischen Fantasywelt unterscheiden:
 2. …
 3. …
 
+## Die Regionen Elyrias – Interaktive Karte
+
+Nachfolgend alle bisher auf der Weltkarte entdeckten und benannten Regionen.
+
+> [!tip] Vollständige interaktive Karte mit anklickbaren Hotspots direkt auf dem Kartenbild
+> Öffne die **[Regionskarte.html](./Regionskarte.html)** – sie zeigt die Weltkarte mit anklickbaren goldenen Punkten für jede entdeckte Region. Ein Klick öffnet die jeweilige Region direkt in Obsidian.
+
+| Region | Position auf der Karte | Beschreibung | Link |
+| :--- | :--- | :--- | :--- |
+| **Die Flusskönigreiche** | Nordkontinent (mitte) | Zusammenschluss vieler kleinerer Königreiche unter Großkönig Thormond von Tharan | [[Die Flusskönigreiche]] |
+| **Die Frostgipfel** | Nordwesten | Eisiges Schneeland mit der Festung Fastning und der Versorgungsstadt Jongmur | [[Die Frostgipfel]] |
+| **Die Urzeitinsel** | Westen (weit links) | Dschungel-Insel mit Dinosauriern und Riesenaffen; niemand ist zurückgekehrt | [[Die Urzeitinsel]] |
+| **Die Schildkröte** | Zentraler Ozean | Riesige, schwimmende Schildkröte (keine Insel!) mit Stadt der Tortle und Arakokra | [[Die Schildkröte]] |
+| **Die Neun Hallen** | Zentrales Gebirge (Eisenkamm) | Unterirdisches Zwergenreich, acht Clans, wandernde Herrschaft | [[Neun Hallen]] |
+
+### Noch nicht benannte Gebiete auf der Karte
+
+Folgende Bereiche sind auf der Karte sichtbar, haben aber noch keinen Namen und keine Regionenseite:
+
+- [ ] Der Norden des Südkontinents (mit dem Kreissee/Krater)
+- [ ] Die Wüste im Süden (mit Pyramide und Flusssystem)
+- [ ] Das Waldreich im Nordosten (mit dem Weltenbaum)
+- [ ] Die Ebenen im Südosten (mit den blauen Türmen)
+- [ ] Der Große See / Binnenmeer (mit den Wasserschlössern)
+- [ ] Die Vulkaninsel (Südwesten)
+- [ ] Das zentrale Gebirge außerhalb der Neun Hallen
+
+---
+
 ## Verwandt
 
-[[Kosmologie und Magie]] · [[Zeitalter und Geschichte]] · [[Regionen]] · [[Kanon und Kontinuität]]
+[[Kosmologie und Magie]] · [[Zeitalter und Geschichte]] · [[Regionen]] · [[Kanon und Kontinuität]] · [[Regionskarte]]

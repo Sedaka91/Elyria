@@ -11,7 +11,10 @@ tags:
 
 | Region | Lage | Klima | Beherrschende Macht | Kampagnen |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| [[Die Flusskönigreiche]] | Nordkontinent | Gemäßigt | [[Großkönig Thormond von Tharan]] |  |
+| [[Die Frostgipfel]] | Nordwesten | Ewig winterlich | Kommandant von Fastning / Stadtrat von Jongmur |  |
+| [[Die Urzeitinsel]] | Westen | Tropisch-heiß | Die Wildnis selbst |  |
+| [[Die Schildkröte]] | Zentraler Ozean | Meeresklima | Rat der Stadt auf dem Panzer |  |
 
 ## Neue Region anlegen
 

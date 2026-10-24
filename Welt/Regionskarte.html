@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Regionskarte Elyria – Interaktiv</title>
+<style>
+  body { font-family: sans-serif; margin: 0; background: #1a1a2e; color: #e0e0e0; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+  h1 { margin-bottom: 10px; text-align: center; }
+  .map-container { position: relative; display: inline-block; max-width: 100%; margin-bottom: 20px; }
+  .map-container img { display: block; max-width: 100%; height: auto; border: 2px solid #4a4a6a; border-radius: 4px; }
+  
+  /* Flächendeckende Regionen-Overlays */
+  .region-overlay {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.25;
+    transition: opacity 0.2s, z-index 0.2s;
+    z-index: 5;
+    border: 2px solid transparent;
+    border-radius: 4px;
+  }
+  .region-overlay:hover {
+    opacity: 0.45;
+    z-index: 15;
+    border-color: #ffd700;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+  }
+  .region-overlay.benannt { background: #4caf50; }
+  .region-overlay.offen { background: #f44336; }
+
+  /* Tooltip */
+  .tooltip {
+    position: absolute;
+    background: #2a2a4a;
+    border: 1px solid #ffd700;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 30;
+    max-width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    white-space: nowrap;
+  }
+  .region-overlay:hover .tooltip { opacity: 1; }
+
+  /* Zentrale Nummer-Marker */
+  .marker {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #ffd700;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 11px;
+    border: 2px solid #fff;
+  }
+  .marker:hover {
+    transform: translate(-50%, -50%) scale(1.3);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  }
+
+  .legend { margin-top: 20px; max-width: 900px; }
+  .legend h2 { font-size: 16px; margin-bottom: 10px; color: #ffd700; }
+  .legend table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .legend th, .legend td { border: 1px solid #4a4a6a; padding: 6px 8px; text-align: left; }
+  .legend th { background: #2a2a4a; color: #ffd700; }
+  .legend tr:nth-child(even) td { background: #161626; }
+  .legend a { color: #ffd700; text-decoration: none; }
+  .legend a:hover { text-decoration: underline; }
+  .legend .pos { font-size: 11px; color: #aaa; }
+  .legend .status-benannt { color: #4caf50; }
+  .legend .status-offen { color: #f44336; font-style: italic; }
+  .ob-link { display: inline-block; margin-top: 16px; padding: 8px 16px; background: #ffd700; color: #000; border-radius: 4px; text-decoration: none; font-weight: bold; }
+  .ob-link:hover { background: #e6c200; }
+</style>
+</head>
+<body>
+
+<h1>🗺️ Regionskarte Elyria – Interaktiv</h1>
+<p style="text-align:center; font-size: 14px; color: #aaa;">Fahre mit der Maus über eine farbige Fläche, um die Region zu sehen. Klicke auf eine Fläche oder den gelben Marker, um die Region in Obsidian zu öffnen.</p>
+
+<div class="map-container">
+  <img src="../Anhänge/Weltkarte.jpg" alt="Weltkarte von Elyria">
+
+  <!-- 1. Die Flusskönigreiche (Nordkontinent, Mitte) – grün -->
+  <div class="region-overlay benannt" style="top: 15%; left: 34%; width: 32%; height: 38%;" onclick="openObsidian('Die Flusskönigreiche')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Die Flusskönigreiche</strong><br>Nordkontinent – Hauptstadt Taran</div>
+  </div>
+  <div class="marker" style="top: 39%; left: 49%;" onclick="openObsidian('Die Flusskönigreiche')">1</div>
+
+  <!-- 2. Die Frostgipfel (Nordwesten) – grün -->
+  <div class="region-overlay benannt" style="top: 4%; left: 5%; width: 26%; height: 46%;" onclick="openObsidian('Die Frostgipfel')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Die Frostgipfel</strong><br>Eisland – Festung Fastning &amp; Stadt Jongmur</div>
+  </div>
+  <div class="marker" style="top: 17%; left: 17%;" onclick="openObsidian('Die Frostgipfel')">2</div>
+
+  <!-- 3. Die Urzeitinsel (Westen, weit links) – grün -->
+  <div class="region-overlay benannt" style="top: 40%; left: 3%; width: 18%; height: 32%;" onclick="openObsidian('Die Urzeitinsel')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Die Urzeitinsel</strong><br>Dschungel mit Dinosauriern – keine Rückkehrer</div>
+  </div>
+  <div class="marker" style="top: 66%; left: 12%;" onclick="openObsidian('Die Urzeitinsel')">3</div>
+
+  <!-- 4. Die Schildkröte (Zentraler Ozean) – grün -->
+  <div class="region-overlay benannt" style="top: 46%; left: 23%; width: 9%; height: 14%;" onclick="openObsidian('Die Schildkröte')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Die Schildkröte</strong><br>Schwimmende Riesenschildkröte mit Stadt der Tortle &amp; Arakokra</div>
+  </div>
+  <div class="marker" style="top: 64%; left: 27%;" onclick="openObsidian('Die Schildkröte')">4</div>
+
+  <!-- 5. Die Neun Hallen (Zentrales Gebirge) – grün -->
+  <div class="region-overlay benannt" style="top: 4%; left: 60%; width: 32%; height: 82%;" onclick="openObsidian('Die Neun Hallen')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Die Neun Hallen</strong><br>Zwergenreich im Eisenkamm-Gebirge</div>
+  </div>
+  <div class="marker" style="top: 29%; left: 75%;" onclick="openObsidian('Die Neun Hallen')">5</div>
+
+  <!-- 6. Norden des Südkontinents (noch offen) – rot -->
+  <div class="region-overlay offen" style="top: 40%; left: 38%; width: 24%; height: 40%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Norden des Südkontinents</strong><br>Noch nicht benannt – Kreissee &amp; Krater sichtbar</div>
+  </div>
+  <div class="marker" style="top: 67%; left: 44%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">6</div>
+
+  <!-- 7. Wüste im Süden (noch offen) – rot -->
+  <div class="region-overlay offen" style="top: 70%; left: 46%; width: 26%; height: 30%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Wüste im Süden</strong><br>Noch nicht benannt – Pyramide &amp; Flusssystem sichtbar</div>
+  </div>
+  <div class="marker" style="top: 92%; left: 61%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">7</div>
+
+  <!-- 8. Waldreich im Nordosten (noch offen) – rot -->
+  <div class="region-overlay offen" style="top: 0%; left: 88%; width: 12%; height: 35%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Waldreich Nordosten</strong><br>Noch nicht benannt – Weltenbaum sichtbar</div>
+  </div>
+  <div class="marker" style="top: 17%; left: 95%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">8</div>
+
+  <!-- 9. Ebenen im Südosten (noch offen) – rot -->
+  <div class="region-overlay offen" style="top: 55%; left: 78%; width: 22%; height: 40%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Ebenen Südosten</strong><br>Noch nicht benannt – blaue Türme sichtbar</div>
+  </div>
+  <div class="marker" style="top: 85%; left: 92%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">9</div>
+
+  <!-- 10. Großer See / Binnenmeer (noch offen) – rot -->
+  <div class="region-overlay offen" style="top: 2%; left: 80%; width: 20%; height: 48%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Großer See</strong><br>Noch nicht benannt – Wasserschlösser sichtbar</div>
+  </div>
+  <div class="marker" style="top: 27%; left: 90%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">10</div>
+
+  <!-- 11. Vulkaninsel (Südwesten) – rot -->
+  <div class="region-overlay offen" style="top: 74%; left: 24%; width: 12%; height: 22%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Vulkaninsel</strong><br>Noch nicht benannt – aktiver Vulkan sichtbar</div>
+  </div>
+  <div class="marker" style="top: 98%; left: 32%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">11</div>
+
+  <!-- 12. Zentrales Gebirge außerhalb Neun Hallen (noch offen) – rot -->
+  <div class="region-overlay offen" style="top: 45%; left: 66%; width: 8%; height: 40%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">
+    <div class="tooltip" style="top: -60px; left: 50%; transform: translateX(-50%);"><strong>Zentrales Gebirge</strong><br>Noch nicht benannt – Bergmassiv zwischen Kontinenten</div>
+  </div>
+  <div class="marker" style="top: 70%; left: 74%;" onclick="alert('Noch nicht benannt – möchtest du eine Region anlegen?')">12</div>
+</div>
+
+<div class="legend">
+  <h2>📋 Alle Regionen auf der Karte</h2>
+  <table>
+    <thead>
+      <tr><th>#</th><th>Region</th><th>Position</th><th>Status</th><th>Link zu Notiz</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td><td><strong>Die Flusskönigreiche</strong></td><td class="pos">Nordkontinent (mitte)</td><td class="status-benannt">✅ Benannt</td><td><a href="obsidian://open?vault=Elyria&file=Regionen%2FDie%20Flussk%C3%B6nigreiche">[[Die Flusskönigreiche]]</a></td>
+      </tr>
+      <tr>
+        <td>2</td><td><strong>Die Frostgipfel</strong></td><td class="pos">Nordwesten</td><td class="status-benannt">✅ Benannt</td><td><a href="obsidian://open?vault=Elyria&file=Regionen%2FDie%20Frostgipfel">[[Die Frostgipfel]]</a></td>
+      </tr>
+      <tr>
+        <td>3</td><td><strong>Die Urzeitinsel</strong></td><td class="pos">Westen (weit links)</td><td class="status-benannt">✅ Benannt</td><td><a href="obsidian://open?vault=Elyria&file=Regionen%2FDie%20Urzeitinsel">[[Die Urzeitinsel]]</a></td>
+      </tr>
+      <tr>
+        <td>4</td><td><strong>Die Schildkröte</strong></td><td class="pos">Zentraler Ozean</td><td class="status-benannt">✅ Benannt</td><td><a href="obsidian://open?vault=Elyria&file=Regionen%2FDie%20Schildkr%C3%B6te">[[Die Schildkröte]]</a></td>
+      </tr>
+      <tr>
+        <td>5</td><td><strong>Die Neun Hallen</strong></td><td class="pos">Zentrales Gebirge (Eisenkamm)</td><td class="status-benannt">✅ Benannt</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FNeun%20Hallen">[[Neun Hallen]]</a></td>
+      </tr>
+      <tr>
+        <td>6</td><td><strong>Norden des Südkontinents</strong></td><td class="pos">Südkontinent (Norden)</td><td class="status-offen">❌ Offen</td><td><em>Noch keine Notiz</em></td>
+      </tr>
+      <tr>
+        <td>7</td><td><strong>Wüste im Süden</strong></td><td class="pos">Südkontinent (Süden)</td><td class="status-offen">❌ Offen</td><td><em>Noch keine Notiz</em></td>
+      </tr>
+      <tr>
+        <td>8</td><td><strong>Waldreich Nordosten</strong></td><td class="pos">Nordosten</td><td class="status-offen">❌ Offen</td><td><em>Noch keine Notiz</em></td>
+      </tr>
+      <tr>
+        <td>9</td><td><strong>Ebenen Südosten</strong></td><td class="pos">Südosten</td><td class="status-offen">❌ Offen</td><td><em>Noch keine Notiz</em></td>
+      </tr>
+      <tr>
+        <td>10</td><td><strong>Großer See</strong></td><td class="pos">Ostküste</td><td class="status-offen">❌ Offen</td><td><em>Noch keine Notiz</em></td>
+      </tr>
+      <tr>
+        <td>11</td><td><strong>Vulkaninsel</strong></td><td class="pos">Südwesten</td><td class="status-offen">❌ Offen</td><td><em>Noch keine Notiz</em></td>
+      </tr>
+      <tr>
+        <td>12</td><td><strong>Zentrales Gebirge</strong></td><td class="pos">Gebirgsmassiv (Mitte)</td><td class="status-offen">❌ Offen</td><td><em>Noch keine Notiz</em></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 style="margin-top: 24px;">🏙️ Alle sichtbaren Städte und Orte auf der Karte</h2>
+  <p style="color: #ccc; font-size: 13px;">Hier sind alle Städte, Festungen und Siedlungen aufgelistet, die ich auf der Weltkarte identifiziert habe. Bereits angelegte Orte sind verlinkt.</p>
+  <table>
+    <thead>
+      <tr><th>Ort</th><th>Region</th><th>Status</th><th>Link</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Taran</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FTaran">[[Taran]]</a></td></tr>
+      <tr><td><strong>Zweiseen</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FZweiseen">[[Zweiseen]]</a></td></tr>
+      <tr><td><strong>Westhafen</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FWesthafen">[[Westhafen]]</a></td></tr>
+      <tr><td><strong>Fährstein</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FF%C3%A4hrstein">[[Fährstein]]</a></td></tr>
+      <tr><td><strong>Buchtwehr</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FBuchtwehr">[[Buchtwehr]]</a></td></tr>
+      <tr><td><strong>Hochwacht</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FHochwacht">[[Hochwacht]]</a></td></tr>
+      <tr><td><strong>Eisenkammfeste</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FEisenkammfeste">[[Eisenkammfeste]]</a></td></tr>
+      <tr><td><strong>Greifenau</strong></td><td>Die Flusskönigreiche</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FGreifenau">[[Greifenau]]</a></td></tr>
+      <tr><td><strong>Fastning</strong></td><td>Die Frostgipfel</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FFastning">[[Fastning]]</a></td></tr>
+      <tr><td><strong>Jongmur</strong></td><td>Die Frostgipfel</td><td class="status-benannt">✅</td><td><a href="obsidian://open?vault=Elyria&file=Orte%2FJongmur">[[Jongmur]]</a></td></tr>
+      <tr><td><strong>Stadt auf dem Panzer</strong></td><td>Die Schildkröte</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+      <tr><td><strong>Schwarze Zitadelle</strong></td><td>Die Frostgipfel / Nordwesten</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+      <tr><td><strong>Hafenstadt (Südspitze Schneeland)</strong></td><td>Die Frostgipfel</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+      <tr><td><strong>Wasserschloss / Unterwasserpalast</strong></td><td>Großer See</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+      <tr><td><strong>Weltenbaum-Stadt</strong></td><td>Waldreich Nordosten</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+      <tr><td><strong>Pyramidenstadt</strong></td><td>Wüste im Süden</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+      <tr><td><strong>Bergfestung (Ostflanke Gebirge)</strong></td><td>Zentrales Gebirge</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+      <tr><td><strong>Dunkle Feste (Wüstenrand)</strong></td><td>Wüste im Süden</td><td class="status-offen">❌</td><td><em>Noch keine Notiz</em></td></tr>
+    </tbody>
+  </table>
+
+  <a href="obsidian://open?vault=Elyria&file=Regionen%2FRegionskarte" class="ob-link">📝 Zur Regionskarte-Notiz in Obsidian</a>
+</div>
+
+<script>
+function openObsidian(regionName) {
+  const map = {
+    'Die Flusskönigreiche': 'Regionen/Die%20Flussk%C3%B6nigreiche',
+    'Die Frostgipfel': 'Regionen/Die%20Frostgipfel',
+    'Die Urzeitinsel': 'Regionen/Die%20Urzeitinsel',
+    'Die Schildkröte': 'Regionen/Die%20Schildkr%C3%B6te',
+    'Die Neun Hallen': 'Orte/Neun%20Hallen'
+  };
+  const file = map[regionName];
+  if (file) {
+    window.location.href = `obsidian://open?vault=Elyria&file=${file}`;
+  } else {
+    alert('Obsidian-Link für "' + regionName + '" nicht gefunden.');
+  }
+}
+</script>
+
+</body>
+</html>
