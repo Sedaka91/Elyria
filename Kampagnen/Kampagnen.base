@@ -1,0 +1,55 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'file.inFolder("Kampagnen")'
+    - 'note.typ == "kampagne"'
+
+properties:
+  status:
+    displayName: Status
+  tier:
+    displayName: Tier
+  startstufe:
+    displayName: Startstufe
+  zeitanker:
+    displayName: Zeitanker
+  region:
+    displayName: Schauplatz
+  kanon:
+    displayName: Kanon
+  letzte_sitzung:
+    displayName: Letzte Sitzung
+  spielerzahl:
+    displayName: Spieler
+
+views:
+  - type: table
+    name: Übersicht
+    order:
+      - file.name
+      - status
+      - tier
+      - startstufe
+      - zeitanker
+      - region
+      - kanon
+      - letzte_sitzung
+      - spielerzahl
+    sort:
+      - property: tier
+        direction: ASC
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: Karten
+    order:
+      - file.name
+      - status
+      - tier
+      - region
+      - letzte_sitzung
+    sort:
+      - property: status
+        direction: ASC
+      - property: file.name
+        direction: ASC
