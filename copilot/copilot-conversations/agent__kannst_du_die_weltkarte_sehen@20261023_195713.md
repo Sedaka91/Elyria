@@ -752,3 +752,23 @@ Please retry in 1.295251367s.
 
 **ai**: **Error:** Internal error: Free usage limit reached. Subscribe to OpenCode Go to keep going: https://opencode.ai/go
 [Timestamp: 2026/10/24 13:35:53]
+
+**user**: Ich möchte die anderen identifizierten Regionen jetzt bennen, leite mich durch die regionen
+[Timestamp: 2026/10/24 15:09:43]
+
+**ai**: **Error:** Internal error: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 16000, model: gemma-4-26b, description: Generate content input tokens per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.
+Please retry in 15.806614413s.
+[Timestamp: 2026/10/24 15:09:43]
+
+**user**: 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
+[Timestamp: 2026/10/24 15:14:27]
+
+**ai**: 
+[Timestamp: 2026/10/24 15:14:27]
+
+**user**: Ich möchte die anderen identifizierten Regionen jetzt bennen, leite mich durch die regionen
+[Timestamp: 2026/10/24 15:14:35]
+
+**ai**: **Error:** Internal error: Free usage limit reached. Subscribe to OpenCode Go to keep going: https://opencode.ai/go
+[Timestamp: 2026/10/24 15:14:35]

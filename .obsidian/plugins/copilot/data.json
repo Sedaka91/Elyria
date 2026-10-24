@@ -454,6 +454,20 @@
       "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
       "addedAt": 1792795627215,
       "apiKeyKeychainId": null
+    },
+    "4cb3a19c-2bc9-46b1-adc1-f5b597912c1a": {
+      "providerType": "openai-compatible",
+      "displayName": "OpenRouter",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "enableCors": false,
+      "requiresApiKey": true,
+      "origin": {
+        "kind": "byok",
+        "catalogProviderId": "openrouter"
+      },
+      "providerId": "4cb3a19c-2bc9-46b1-adc1-f5b597912c1a",
+      "addedAt": 1792847652208,
+      "apiKeyKeychainId": "copilot-v80e62875-provider-openrouter-api-key"
     }
   },
   "configuredModels": [
@@ -537,6 +551,56 @@
       },
       "configuredModelId": "87fbc30f-6976-4be7-bc28-003a296b1e51",
       "configuredAt": 1792777105393
+    },
+    {
+      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "info": {
+        "id": "default",
+        "displayName": "Default (recommended)",
+        "description": "Use the default model (currently Opus 5.5) · $4/$20 per Mtok"
+      },
+      "configuredModelId": "94ba75b3-83fa-4ec8-98ef-d3f77a18284d",
+      "configuredAt": 1792795627261
+    },
+    {
+      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "info": {
+        "id": "opus",
+        "displayName": "Opus",
+        "description": "Opus 5.5 · Best for everyday, complex tasks · $4/$20 per Mtok"
+      },
+      "configuredModelId": "16b8469c-9452-4b5f-9914-efa7633494f3",
+      "configuredAt": 1792795627262
+    },
+    {
+      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "info": {
+        "id": "fable",
+        "displayName": "Fable",
+        "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks · $10/$50 per Mtok"
+      },
+      "configuredModelId": "99c19300-e8cc-4f4c-848f-d5092f2b549e",
+      "configuredAt": 1792795627262
+    },
+    {
+      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "info": {
+        "id": "sonnet",
+        "displayName": "Sonnet",
+        "description": "Sonnet 5.5 · Efficient for routine tasks · $2/$10 per Mtok"
+      },
+      "configuredModelId": "9e9fa4e9-3c3f-4812-92a2-f8cd0d0a2356",
+      "configuredAt": 1792795627263
+    },
+    {
+      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "info": {
+        "id": "haiku",
+        "displayName": "Haiku",
+        "description": "Haiku 5.5 · Fastest for quick answers · $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100k)"
+      },
+      "configuredModelId": "ee677491-2bf4-4f0f-904d-958c04fd203d",
+      "configuredAt": 1792795627263
     },
     {
       "configuredModelId": "8c5437d2-330f-41b2-b760-df4fd8edcdeb",
@@ -638,54 +702,213 @@
       "configuredAt": 1792777963897
     },
     {
-      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "configuredModelId": "cc4087d7-138c-4789-9b05-b3a55883b9c4",
+      "providerId": "74379dd0-067f-4eed-a0e0-05377e3622c1",
       "info": {
-        "id": "default",
-        "displayName": "Default (recommended)",
-        "description": "Use the default model (currently Opus 5.5) · $4/$20 per Mtok"
+        "id": "gemini-flash-latest",
+        "displayName": "Gemini Flash Latest",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-08-13",
+        "cost": {
+          "input": 0.75,
+          "output": 3.75,
+          "cacheRead": 0.075
+        }
       },
-      "configuredModelId": "94ba75b3-83fa-4ec8-98ef-d3f77a18284d",
-      "configuredAt": 1792795627261
+      "configuredAt": 1792847367742
     },
     {
-      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "configuredModelId": "e31e1aa3-24d0-4621-b71d-a9b8272c4e44",
+      "providerId": "74379dd0-067f-4eed-a0e0-05377e3622c1",
       "info": {
-        "id": "opus",
-        "displayName": "Opus",
-        "description": "Opus 5.5 · Best for everyday, complex tasks · $4/$20 per Mtok"
+        "id": "gemini-flash-lite-latest",
+        "displayName": "Gemini Flash-Lite Latest",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-21",
+        "cost": {
+          "input": 0.3,
+          "output": 2.5,
+          "cacheRead": 0.03
+        }
       },
-      "configuredModelId": "16b8469c-9452-4b5f-9914-efa7633494f3",
-      "configuredAt": 1792795627262
+      "configuredAt": 1792847367742
     },
     {
-      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "configuredModelId": "ed9a71f1-7e26-400d-9ea1-95bc66fd486e",
+      "providerId": "74379dd0-067f-4eed-a0e0-05377e3622c1",
       "info": {
-        "id": "fable",
-        "displayName": "Fable",
-        "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks · $10/$50 per Mtok"
+        "id": "gemma-4-26b-a4b-it",
+        "displayName": "Gemma 4 26B A4B IT",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 262144,
+          "output": 32768
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-02"
       },
-      "configuredModelId": "99c19300-e8cc-4f4c-848f-d5092f2b549e",
-      "configuredAt": 1792795627262
+      "configuredAt": 1792847367742
     },
     {
-      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "configuredModelId": "6f406958-1667-4c37-bfb0-ff320e264b5e",
+      "providerId": "4cb3a19c-2bc9-46b1-adc1-f5b597912c1a",
       "info": {
-        "id": "sonnet",
-        "displayName": "Sonnet",
-        "description": "Sonnet 5.5 · Efficient for routine tasks · $2/$10 per Mtok"
+        "id": "nvidia/nemotron-3.5-super-vl:free",
+        "displayName": "Nemotron 3.5 Super VL (free)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-10-15",
+        "cost": {
+          "input": 0,
+          "output": 0
+        }
       },
-      "configuredModelId": "9e9fa4e9-3c3f-4812-92a2-f8cd0d0a2356",
-      "configuredAt": 1792795627263
+      "configuredAt": 1792847652219
     },
     {
-      "providerId": "f5617fe9-3db4-4e69-b27c-2808cf6713a2",
+      "configuredModelId": "bc36964f-3336-4d2d-9c4e-59e0975e44f6",
+      "providerId": "4cb3a19c-2bc9-46b1-adc1-f5b597912c1a",
       "info": {
-        "id": "haiku",
-        "displayName": "Haiku",
-        "description": "Haiku 5.5 · Fastest for quick answers · $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100k)"
+        "id": "thinkingmachines/inkling-small:free",
+        "displayName": "Inkling Small (free)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 262144
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-30",
+        "cost": {
+          "input": 0,
+          "output": 0
+        }
       },
-      "configuredModelId": "ee677491-2bf4-4f0f-904d-958c04fd203d",
-      "configuredAt": 1792795627263
+      "configuredAt": 1792847652219
+    },
+    {
+      "configuredModelId": "2a1d0cf0-929b-4590-a6af-b1f2d6074458",
+      "providerId": "4cb3a19c-2bc9-46b1-adc1-f5b597912c1a",
+      "info": {
+        "id": "nvidia/nemotron-3.5-lightning:free",
+        "displayName": "Nemotron 3.5 Lightning (free)",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 65536
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-08-11",
+        "cost": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "configuredAt": 1792847652219
+    },
+    {
+      "configuredModelId": "1765469a-85a6-44e8-9197-1f7975414beb",
+      "providerId": "4cb3a19c-2bc9-46b1-adc1-f5b597912c1a",
+      "info": {
+        "id": "thinkingmachines/inkling:free",
+        "displayName": "Inkling (free)",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 262144
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-15",
+        "cost": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      "configuredAt": 1792847652219
     }
   ],
   "backends": {
@@ -694,14 +917,28 @@
         "25fb21d0-35b8-435e-8c40-9e8b5a14d394",
         "8c5437d2-330f-41b2-b760-df4fd8edcdeb",
         "2f0a1338-4fb3-4550-b1c8-503746cecc37",
-        "b02b55cf-21de-490e-9530-55a8a208f193"
+        "b02b55cf-21de-490e-9530-55a8a208f193",
+        "cc4087d7-138c-4789-9b05-b3a55883b9c4",
+        "e31e1aa3-24d0-4621-b71d-a9b8272c4e44",
+        "ed9a71f1-7e26-400d-9ea1-95bc66fd486e",
+        "6f406958-1667-4c37-bfb0-ff320e264b5e",
+        "bc36964f-3336-4d2d-9c4e-59e0975e44f6",
+        "2a1d0cf0-929b-4590-a6af-b1f2d6074458",
+        "1765469a-85a6-44e8-9197-1f7975414beb"
       ]
     },
     "chat": {
       "enabledModels": [
         "8c5437d2-330f-41b2-b760-df4fd8edcdeb",
         "2f0a1338-4fb3-4550-b1c8-503746cecc37",
-        "b02b55cf-21de-490e-9530-55a8a208f193"
+        "b02b55cf-21de-490e-9530-55a8a208f193",
+        "cc4087d7-138c-4789-9b05-b3a55883b9c4",
+        "e31e1aa3-24d0-4621-b71d-a9b8272c4e44",
+        "ed9a71f1-7e26-400d-9ea1-95bc66fd486e",
+        "6f406958-1667-4c37-bfb0-ff320e264b5e",
+        "bc36964f-3336-4d2d-9c4e-59e0975e44f6",
+        "2a1d0cf0-929b-4590-a6af-b1f2d6074458",
+        "1765469a-85a6-44e8-9197-1f7975414beb"
       ]
     },
     "claude": {
